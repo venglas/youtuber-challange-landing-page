@@ -43,6 +43,23 @@
         Wersjonowanie projektów oparte jest o <a href="https://semver.org/lang/pl/">semantyczne wersjonowanie</a>.
       </p>
     </section>
+
+    <section class="article__section">
+      <header class="header">
+        Kto moze kontrybułować?
+      </header>
+      <p>
+        Swój wkład w projekt moze mieć kazdy. Mniej lub bardziej doświadczony zawodnik. <br />
+        Aktualnie szukamy pomocy zarówno z front endu i back endu. <br />
+        Nie negujemy nikogo, chcesz uczestniczyć w zarządzaniu projektem, słuyć swoją pomocą przy ux/ui designie, albo testach? <br />
+        - To odpowieni projekt dla Ciebie :) <br />
+
+        <span style="width: 100%; border-bottom: 1px solid gray; display: block; margin: 1rem"></span>
+
+        Jeśli jesteś zainteresowany dołącz do discorda, a otrzymasz więcej informacji:
+        <a href="https://discord.gg/JUv3va2y" target="_blank">Kliknij tutaj aby odebrać zaproszenie</a>
+      </p>
+    </section>
   </article>
 </template>
 
