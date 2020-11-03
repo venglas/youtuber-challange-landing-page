@@ -1,4 +1,4 @@
-# youtuber-challange-landing-page
+# page
 
 ## Project setup
 ```
