@@ -37,12 +37,13 @@ export default {
     &__nav {
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       .menu {
         list-style-type: none;
         display: flex;
         width: fit-content;
         &__item {
-          padding: 2rem;
+          padding: 0 1rem;
         }
       }
     }

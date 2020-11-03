@@ -1,5 +1,5 @@
 <template>
-  <div id="nav">
+  <div id="app">
     <app-header />
     <router-view />
   </div>
@@ -32,8 +32,8 @@ html {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+#app {
+  padding: 1rem;
 
   a {
     font-weight: bold;
