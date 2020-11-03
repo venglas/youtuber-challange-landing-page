@@ -1,12 +1,30 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="app">
+    <app-header />
+    <router-view />
   </div>
-  <router-view/>
 </template>
 
+<script>
+import appHeader from '@/components/app-header'
+export default {
+  components: {
+    appHeader
+  }
+}
+</script>
+
 <style lang="scss">
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +43,16 @@
     &.router-link-exact-active {
       color: #42b983;
     }
+  }
+}
+
+.article {
+  font-size: 1.4rem;
+  padding: 2rem;
+  &__header {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0;
   }
 }
 </style>
