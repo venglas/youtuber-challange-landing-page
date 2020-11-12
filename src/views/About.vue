@@ -7,7 +7,7 @@
       Jak wiadomo jutuberzy to bestie na glinianych nogach i chętnie podejmią się wyzwań, które zaproponował im ich widz, który został poparty przez resztę publiczności więc
     </p>
 
-    <h4 style="margin: 3rem 0 1rem 0">Więc stajemy naprzeciw i dajemy mozliwość rzucania wyzwań :)</h4>
+    <h4 class="page-heading">Więc stajemy naprzeciw i dajemy mozliwość rzucania wyzwań :)</h4>
 
     <section class="article__section">
       <header class="header">
@@ -42,6 +42,9 @@
   .article {
     &__section {
       margin: 3rem 0;
+    }
+    .header_4{
+      margin: 3rem 0 1rem 0;
     }
   }
 </style>
