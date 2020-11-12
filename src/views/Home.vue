@@ -7,7 +7,7 @@
       Ponizej znajdziesz informacje na temat projektu oraz niezbędne linki, które pomogą Ci szybciej podjąć decyzję czy chcesz mieć swój wkład w ten projekt.
     </p>
 
-    <h4 style="margin: 3rem 0 1rem 0">Lista technologii uzytych w projekcie</h4>
+    <h4 class="page-heading">Lista technologii uzytych w projekcie</h4>
 
     <div class="section-wrapper">
       <section class="article__section article__section--front-end">
@@ -113,6 +113,9 @@ export default {
   }
   .list {
     text-align: left;
+  }
+  .page-heading{
+    margin: 3rem 0 1rem 0;
   }
 }
 </style>
